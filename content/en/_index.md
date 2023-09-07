@@ -1,77 +1,37 @@
 ---
-title: Goldydocs
+title: WAVE - An open-source underWater Arm-Vehicle Emulator
+description: An open-source underWater Arm-Vehicle Emulator
 ---
 
-{{< blocks/cover title="Welcome to Goldydocs: A Docsy Example Project!" image_anchor="top" height="full" >}}
-<a class="btn btn-lg btn-primary me-3 mb-4" href="/docs/">
-  Learn More <i class="fas fa-arrow-alt-circle-right ms-2"></i>
-</a>
-<a class="btn btn-lg btn-secondary me-3 mb-4" href="https://github.com/google/docsy-example">
-  Download <i class="fab fa-github ms-2 "></i>
-</a>
-<p class="lead mt-5">Porridge temperature assessment &mdash; in the cloud!</p>
-{{< blocks/link-down color="info" >}}
-{{< /blocks/cover >}}
+{{% blocks/cover title="WAVE" image_anchor="top" height="full" %}}
+{{% param description %}}
+{.display-6}
 
+<!-- <a class="btn btn-lg btn-primary me-3" href="about/">Learn More</a>
+<a class="btn btn-lg btn-secondary" href="docs/get-started/">Get started</a> -->
+<!-- {.p-initial .my-5} -->
+
+{{% blocks/link-down color="info" %}}
+{{% /blocks/cover %}}
 
 {{% blocks/lead color="primary" %}}
-Goldydocs provides a single web UI providing visibility into porridge
-temperature, chair size, and bed softness metrics! You can even find out who's
-been eating **your** porridge.
+Wave is a novel physical testbed developed for underwater manipulation studies.
 
-(Sadly, Goldydocs isn't a real project, but you can use this site as an example
-to create your own real websites with [Docsy](https://docsy.dev))
+Read about: the <a href="docs/">Testbed Overview</a>, <a href="docs/">Hardware</a>, and <a href="docs/">Software</a>.
+
+See the <a href="docs/">bill of materials</a> and <a href="docs/">3D models</a> to build your own.
+
 {{% /blocks/lead %}}
 
+{{% blocks/section type="section" color="dark" type="row" %}}
 
-{{% blocks/section color="dark" type="row" %}}
-{{% blocks/feature icon="fa-lightbulb" title="New chair metrics!" %}}
-The Goldydocs UI now shows chair size metrics by default.
+### Key functionality:
 
-Please follow this space for updates!
-{{% /blocks/feature %}}
+* Replicated ROV motion: surge-heave-sway-yaw within an approximately 2m x 2m x 1m square workspace
+* Ground truth localization: feedback from joint encoders at each axis can be used to accurately reconstruct
+the forward kinematics of the testbed and provide  accurate state estimation
+* Two operating modes: rigid and passively compliant. In the passive-mode, the ROV body can pitch similar to
+how an underactuated vehicle without pitch control would rotate during manipulatormotion due to dynamic coupling.
+* Modularity: the testbed can be disassembled and re-assembled within two hours
 
-
-{{% blocks/feature icon="fab fa-github" title="Contributions welcome!" url="https://github.com/google/docsy-example" %}}
-We do a [Pull Request](https://github.com/google/docsy-example/pulls) contributions workflow on **GitHub**. New users are always welcome!
-{{% /blocks/feature %}}
-
-
-{{% blocks/feature icon="fab fa-twitter" title="Follow us on Twitter!" url="https://twitter.com/docsydocs" %}}
-For announcement of latest features etc.
-{{% /blocks/feature %}}
-
-
-{{% /blocks/section %}}
-
-
-{{% blocks/section %}}
-This is the second section
-{.h1 .text-center}
-{{% /blocks/section %}}
-
-
-{{% blocks/section type="row" %}}
-
-{{% blocks/feature icon="fab fa-app-store-ios" title="Download **from AppStore**" %}}
-Get the Goldydocs app!
-{{% /blocks/feature %}}
-
-{{% blocks/feature icon="fab fa-github" title="Contributions welcome!"
-    url="https://github.com/google/docsy-example" %}}
-We do a [Pull Request](https://github.com/google/docsy-example/pulls)
-contributions workflow on **GitHub**. New users are always welcome!
-{{% /blocks/feature %}}
-
-{{% blocks/feature icon="fab fa-twitter" title="Follow us on Twitter!"
-    url="https://twitter.com/GoHugoIO" %}}
-For announcement of latest features etc.
-{{% /blocks/feature %}}
-
-{{% /blocks/section %}}
-
-
-{{% blocks/section %}}
-This is the another section
-{.h1 .text-center}
 {{% /blocks/section %}}

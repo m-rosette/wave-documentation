@@ -1,29 +1,19 @@
+
 ---
 title: Documentation
-linkTitle: Docs
+linkTitle: Documentation
 menu: {main: {weight: 20}}
-weight: 20
 ---
 
-{{% pageinfo %}}
-This is a placeholder page that shows you how to use this template site.
-{{% /pageinfo %}}
+WAVE is a 10-degree-of-freedom underwater manipulation platform that uses [Teknic ClearPath Integrated Servos Motors](https://teknic.com/products/clearpath-brushless-dc-servo-motors/), [Reach Robotics Bravo Manipulator](https://reachrobotics.com/products/manipulators/reach-bravo/) and [UW-APLs Trisect](https://trisect-perception-sensor.gitlab.io/trisect-docs/docs/) perception sensor.
 
-This section is where the user documentation for your project lives - all the
-information your users need to understand and successfully use your project.
+## **Design Fundamentals**
 
-For large documentation sets we recommend adding content under the headings in
-this section, though if some or all of them don’t apply to your project feel
-free to remove them or add your own. You can see an example of a smaller Docsy
-documentation site in the [Docsy User Guide](https://docsy.dev/docs/), which
-lives in the [Docsy theme
-repo](https://github.com/google/docsy/tree/master/userguide) if you'd like to
-copy its docs section.
+words words words
 
-Other content such as marketing material, case studies, and community updates
-should live in the [About](/about/) and [Community](/community/) pages.
 
-Find out how to use the Docsy theme in the [Docsy User
-Guide](https://docsy.dev/docs/). You can learn more about how to organize your
-documentation (and how we organized this site) in [Organizing Your
-Content](https://docsy.dev/docs/best-practices/organizing-content/).
+## Advantages of WAVE
+Some words
+
+## Disdvantages of WAVE
+Some words
